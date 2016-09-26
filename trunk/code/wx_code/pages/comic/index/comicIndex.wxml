@@ -1,0 +1,4 @@
+<loading hidden="{{!loading_count}}">
+  加载中...
+</loading>
+</>
