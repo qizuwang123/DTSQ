@@ -1,35 +1,11 @@
 {
   "pages":[
-    "pages/comic/index/comicIndex",
-    "pages/mine/index/mineIndex"
+    "pages/index/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff107",
-    "navigationBarTitleText": "大角虫漫画",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Hello,Siri",
     "navigationBarTextStyle":"black"
-  },
-  "tabBar": {
-    "color": "#dddddd",
-    "selectedColor": "#3cc51f",
-    "borderStyle": "black",
-    "backgroundColor": "#ffffff",
-    "list": [{
-      "pagePath": "pages/comic/index/comicIndex",
-      "iconPath": "images/icon_tabbar_item_comic_n.png",
-      "selectedIconPath": "images/icon_tabbar_item_comic_h.png"
-    }, {
-      "pagePath": "pages/mine/index/mineIndex",
-      "iconPath": "images/icon_tabbar_item_mine_n.png",
-      "selectedIconPath": "images/icon_tabbar_item_mine_h.png"
-    }]
-  },
-  
-   "networkTimeout": {
-    "request": 10000,
-    "connectSocket": 10000,
-    "uploadFile": 10000,
-    "downloadFile": 10000
-  },
-  "debug": true
+  }
 }

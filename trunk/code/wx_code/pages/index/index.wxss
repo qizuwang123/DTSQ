@@ -1,0 +1,29 @@
+/**index.wxss**/
+.protomodel-imgContainer{
+  width: 750rpx;
+  height: 1200rpx;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  background-image: url("../../images/siri_750_1334.jpg");
+  background-size: 675rpx 1200rpx;
+  background-position: 37.5rpx;
+  background-repeat: no-repeat;
+}
+.input-box{
+  width: 750rpx;
+  height: 70rpx;
+  display: flex;
+  bottom: 70rpx;
+  justify-content: space-between;
+}
+.input-subcontainer{
+  width: 365rpx;
+  background-color: #000;
+  /*height: */
+}
+
+/*.protomodel-imgContainer image{
+  width: 675rpx;
+  height: 1200rpx;
+}*/

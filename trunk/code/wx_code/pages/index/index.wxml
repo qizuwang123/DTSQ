@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container">
+<!--<canvas canvas-id="1"  class="canvas" />-->
+    <view class="protomodel-imgContainer">
+        <!--<image src="{{image_path}}"/>-->
+    </view>
+    <div class="input-box">
+        <view class="input-subcontainer" >
+            <input class="left-input" placeholder="输入左边的文字" />
+        </view>
+        <view class="input-subcontainer">
+            <input class="right-input" placeholder="输入右边的文字" auto_focus />
+        </view>
+    </div>
+</view>
