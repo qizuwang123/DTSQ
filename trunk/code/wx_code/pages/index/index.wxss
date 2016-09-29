@@ -11,15 +11,17 @@
   background-repeat: no-repeat;
 }
 .input-box{
+  position:relative;
   width: 750rpx;
   height: 70rpx;
   display: flex;
-  bottom: 70rpx;
+  bottom: 20rpx;
   justify-content: space-between;
+  background-color: gray;
 }
 .input-subcontainer{
   width: 365rpx;
-  background-color: #000;
+  background-color: white;
   /*height: */
 }
 
